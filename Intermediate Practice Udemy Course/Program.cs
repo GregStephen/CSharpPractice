@@ -39,6 +39,12 @@ namespace Intermediate_Practice_Udemy_Course
             // object initialization 
             var person = Person.Parse("Greg");
             person.Introduce("Bill");
+
+            var stopWatch = new StopwatchExercise();
+            stopWatch.Start();
+            stopWatch.Stop();
+            stopWatch.Start();
+            stopWatch.Stop();
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\bin\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.exe
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\bin\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.deps.json
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\bin\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.runtimeconfig.json
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\bin\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.runtimeconfig.dev.json
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\bin\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.dll
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\bin\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.pdb
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\obj\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.csprojAssemblyReference.cache
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\obj\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.AssemblyInfoInputs.cache
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\obj\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.AssemblyInfo.cs
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\obj\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.dll
+C:\Users\Greg\source\repos\Intermediate Practice Udemy Course\Intermediate Practice Udemy Course\obj\Debug\netcoreapp3.0\Intermediate Practice Udemy Course.pdb

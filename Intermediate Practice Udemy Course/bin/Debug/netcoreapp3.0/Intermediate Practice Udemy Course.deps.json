@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Intermediate Practice Udemy Course/1.0.0": {
+        "runtime": {
+          "Intermediate Practice Udemy Course.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Intermediate Practice Udemy Course/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
