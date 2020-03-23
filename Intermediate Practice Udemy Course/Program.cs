@@ -40,11 +40,40 @@ namespace Intermediate_Practice_Udemy_Course
             var person = Person.Parse("Greg");
             person.Introduce("Bill");
 
+
+            ////// Exercises //////
             var stopWatch = new StopwatchExercise();
             stopWatch.Start();
             stopWatch.Stop();
             stopWatch.Start();
             stopWatch.Stop();
+
+            var stackPost = new StackPostExercise("Hello World", "This is about saying Hello to the World");
+            stackPost.Upvote();
+            stackPost.Upvote();
+            stackPost.Downvote();
+            stackPost.Upvote();
+            stackPost.Downvote();
+            Console.WriteLine(stackPost.GetTotalVoteValue());
+
+
+            /////// Inheritance /////
+            ///////////////////////////
+            var text = new Text();
+            text.Width = 100;
+            text.Copy();
+
+
+
+            //////// Composition ///////////
+            ///////////////////////////////
+            var dbMigrator = new DBMigrator(new Logger());
+
+            var logger = new Logger();
+            var installer = new Installer(logger);
+            dbMigrator.Migrate();
+            installer.Install();
+
         }
     }
 }
