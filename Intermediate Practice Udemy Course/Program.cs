@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Intermediate_Practice_Udemy_Course
 {
@@ -74,6 +76,43 @@ namespace Intermediate_Practice_Udemy_Course
             dbMigrator.Migrate();
             installer.Install();
 
+
+            //////////////////////CASTING/////////////
+            //////////////////////////////////////////
+
+            TextCasting textCasting = new TextCasting();
+            ShapeCasting shape = textCasting;
+
+            
+            //// THESE BOTH REFERENCE THE SAME OBJ
+            
+            text.Width = 200;
+            shape.Width = 100;
+
+            Console.WriteLine(text.Width);
+
+
+            ////////// BOXING AND UNBOXING //////////////
+            //////////////////////////////////////////
+            var list = new ArrayList();
+            list.Add(1);
+            list.Add("Mosh");
+            list.Add(DateTime.Today);
+            // boxing happens here so its slower than using a List with a generic type
+
+            var anotherList = new List<int>();
+            var names = new List<string>();
+
+
+            ////////////////// Exercises ///////////////////
+            ///
+            var stack = new Stack();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
         }
     }
 }
