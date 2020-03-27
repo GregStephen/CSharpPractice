@@ -113,6 +113,15 @@ namespace Intermediate_Practice_Udemy_Course
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
+
+
+            ////////////// POLYMORPHISM EXERCISES /////////////
+            ///////////////////////////////////////////////////
+
+            var sqlConnection = new SQLConnection("Blah da blah");
+            var oracleConnection = new OracleConnection("agjgoega");
+            var dbCommand = new DbCommand(oracleConnection, "DO THIS THING");
+            dbCommand.Execute();
         }
     }
 }
