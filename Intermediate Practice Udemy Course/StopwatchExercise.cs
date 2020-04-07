@@ -14,7 +14,7 @@ namespace Intermediate_Practice_Udemy_Course
         {
             if(_hasStarted)
             {
-                throw new InvalidOperationException();
+                throw new InvalidOperationException("Stopwatch already started");
             }
             _hasStarted = true;
             _startTime = DateTime.Now;
@@ -22,6 +22,10 @@ namespace Intermediate_Practice_Udemy_Course
         
         public void Stop()
         {
+            if(!_hasStarted)
+            {
+                throw new InvalidOperationException("Stopwatch not started yet");
+            }
             _hasStarted = false;
             _endTime = DateTime.Now;
             Console.WriteLine(Duration);
@@ -31,8 +35,8 @@ namespace Intermediate_Practice_Udemy_Course
         {
             get 
             {
-                var timeBetween = _endTime - _startTime;
-                return timeBetween;
+                return _endTime - _startTime;
+            
             }
         }
     }

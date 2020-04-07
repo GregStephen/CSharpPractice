@@ -6,7 +6,7 @@ namespace Intermediate_Practice_Udemy_Course
 {
     class Stack
     {
-        private List<object> _stack = new List<object>(); 
+        private readonly List<object> _stack = new List<object>(); 
         public void Push(object obj)
         {
             if (obj == null)
